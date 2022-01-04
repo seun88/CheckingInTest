@@ -101,7 +101,7 @@ namespace CheckingInTest.Helper
             public static IWebElement GetElementById(String id)
             {
                 By locator = By.Id(id);
-                return GetElementById(id);
+               
             }
 
             public static IWebElement GetElementByClassName(String className)
